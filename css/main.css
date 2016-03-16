@@ -1,0 +1,233 @@
+/* MIXINS */
+/* PALETTE */
+/* VARIABLES */
+/* UTILITIES */
+body {
+  color: white;
+  text-align: center; }
+
+h1 {
+  font-size: 4.7em;
+  font-weight: 400;
+  padding: 0 19px;
+  margin-bottom: 26px; }
+
+img {
+  width: 100%; }
+
+/* HEADER */
+header {
+  background-color: #27AD60;
+  font-weight: 300; }
+  header .navbar-header .navbar-brand {
+    position: relative;
+    top: 10px; }
+  header .navbar-right {
+    padding-top: 26px; }
+
+.nav li a:hover, .nav li a:focus {
+  background: transparent;
+  text-decoration: underline; }
+
+/* HERO BG */
+#hero-bg {
+  background: url(../img/carousel-bg.jpg) 0 100% fixed;
+  padding: 2% 0; }
+  #hero-bg ul li {
+    display: inline-block; }
+    #hero-bg ul li a {
+      display: inline-block; }
+
+.h1-sub {
+  font-size: 2em;
+  font-weight: 400; }
+
+/* PALETTE COLOR */
+#palette {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  color: #443E44; }
+  #palette .colores {
+    margin: 0 auto;
+    width: 74%; }
+    #palette .colores .color-palette:first-child .color:first-child {
+      background-color: #69D2E7;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:first-child .color:nth-child(2) {
+      background-color: #A7DBDB;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:first-child .color:nth-child(3) {
+      background-color: #E0E4CC;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:first-child .color:nth-child(4) {
+      background-color: #F38630;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:first-child .color:nth-child(5) {
+      background-color: #FA6900;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(2) .color:first-child {
+      background-color: #E94C6F;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(2) .color:nth-child(2) {
+      background-color: #542733;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(2) .color:nth-child(3) {
+      background-color: #5A6A62;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(2) .color:nth-child(4) {
+      background-color: #C6D5CD;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(2) .color:nth-child(5) {
+      background-color: #FDF200;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(3) .color:first-child {
+      background-color: #DB3340;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(3) .color:nth-child(2) {
+      background-color: #E8B71A;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(3) .color:nth-child(3) {
+      background-color: #F7EAC8;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(3) .color:nth-child(4) {
+      background-color: #1FDA9A;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(3) .color:nth-child(5) {
+      background-color: #28ABE3;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(4) .color:first-child {
+      background-color: #588C73;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(4) .color:nth-child(2) {
+      background-color: #F2E394;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(4) .color:nth-child(3) {
+      background-color: #F2AE72;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(4) .color:nth-child(4) {
+      background-color: #D96459;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:nth-child(4) .color:nth-child(5) {
+      background-color: #8C4646;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:last-child .color:first-child {
+      background-color: #D0C91F;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:last-child .color:nth-child(2) {
+      background-color: #85C4B9;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:last-child .color:nth-child(3) {
+      background-color: #008BBA;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:last-child .color:nth-child(4) {
+      background-color: #DF514C;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+    #palette .colores .color-palette:last-child .color:nth-child(5) {
+      background-color: #DC403B;
+      float: left;
+      height: 130px;
+      margin-bottom: 10px;
+      width: 20%; }
+
+.color-palette {
+  height: 140px; }
+
+/* ABOUT US */
+#aboutus {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #2B3E50;
+  color: white; }
+
+/* WHAT WE DO */
+#wedo, #ourteam, footer {
+  background-color: #27AD60; }
+
+a.btn-dark {
+  background-color: #443E44;
+  color: white;
+  padding: 15px; }
+
+/* OUR TEAM */
+/* TESTIMONIALS */
+#testimonials, #contactus {
+  background-color: #2B3E50;
+  color: white; }
+
+/* SOCIAL MEDIA */
+#social-media {
+  background: url(../img/img-divider-img.jpg) 0 100% fixed; }
+
+/*# sourceMappingURL=main.css.map */
