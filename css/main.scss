@@ -9,13 +9,20 @@ $dark-gray: #443E44;
 /* UTILITIES */
 body {
 	color: white;
+	font-weight: 400;
 	text-align: center;
 }
 h1 {
 	font-size: 4.7em;
 	font-weight: 400;
 	padding: 0 19px;
-	margin-bottom: 26px;
+}
+hr {
+	margin-bottom: 60px;
+	width: 250px;
+}
+p {
+	font-size: 1.2em;
 }
 img {
 	width: 100%;
@@ -46,7 +53,6 @@ header {
 #hero-bg {
 	background: url(../img/carousel-bg.jpg) 0 100% fixed;
 	padding: 2% 0;
-	// height: 400px;
 	ul li {
 		display: inline-block;
 		a {
@@ -69,9 +75,12 @@ header {
 #palette {
 	@include sectionutilities($pdtop: 3%, $pdbot: 1%);
 	color: $dark-gray;
+	hr {
+		border: 1px solid $dark-blue;
+	}
 	.colores {
 		margin: 0 auto;
-		width: 74%;
+		width: 80%;
 		.color-palette:first-child  {
 			@include bgcolor (#69D2E7, #A7DBDB, #E0E4CC, #F38630, #FA6900);
 		}

@@ -4,13 +4,20 @@
 /* UTILITIES */
 body {
   color: white;
+  font-weight: 400;
   text-align: center; }
 
 h1 {
   font-size: 4.7em;
   font-weight: 400;
-  padding: 0 19px;
-  margin-bottom: 26px; }
+  padding: 0 19px; }
+
+hr {
+  margin-bottom: 60px;
+  width: 250px; }
+
+p {
+  font-size: 1.2em; }
 
 img {
   width: 100%; }
@@ -47,9 +54,11 @@ header {
   padding-top: 3%;
   padding-bottom: 1%;
   color: #443E44; }
+  #palette hr {
+    border: 1px solid #2B3E50; }
   #palette .colores {
     margin: 0 auto;
-    width: 74%; }
+    width: 80%; }
     #palette .colores .color-palette:first-child .color:first-child {
       background-color: #69D2E7;
       float: left;
